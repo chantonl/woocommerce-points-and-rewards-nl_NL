@@ -1,0 +1,845 @@
+# Copyright (C) 2020 WooCommerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Points and Rewards 1.6.37\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"points-and-rewards\n"
+"POT-Creation-Date: 2020-08-25 17:25:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-09-04 16:39+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+
+#: includes/class-wc-points-rewards-actions.php:62
+msgid "Points earned for account signup"
+msgstr "Punten toegekend voor account registratie"
+
+#: includes/class-wc-points-rewards-actions.php:63
+msgid ""
+"Enter the amount of points earned when a customer signs up for an account."
+msgstr ""
+"Voer het aantal punten in dat een klant ontvangt bij het aanmaken van een "
+"account."
+
+#: includes/class-wc-points-rewards-actions.php:74
+msgid "Points earned for writing a review"
+msgstr "Punten toegekend voor schrijven beoordeling"
+
+#: includes/class-wc-points-rewards-actions.php:75
+msgid ""
+"Enter the amount of points earned when a customer first reviews a product."
+msgstr ""
+"Voer het aantal punten in dat een klant ontvangt bij het schrijven van zijn "
+"eerste beoordeling."
+
+#: includes/class-wc-points-rewards-actions.php:108
+msgid "%s earned for product review"
+msgstr "%s verdiend voor product review"
+
+#: includes/class-wc-points-rewards-actions.php:109
+msgid "%s earned for account signup"
+msgstr "%s verdiend door je te registeren"
+
+#: includes/class-wc-points-rewards-admin.php:45
+#: includes/class-wc-points-rewards-admin.php:215
+msgid "Manage Points"
+msgstr "Beheer punten"
+
+#: includes/class-wc-points-rewards-admin.php:46
+#: includes/class-wc-points-rewards-admin.php:209
+#: includes/class-wc-points-rewards-admin.php:353
+msgid "Points Log"
+msgstr "Punten log"
+
+#: includes/class-wc-points-rewards-admin.php:47
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-wc-points-rewards-admin.php:129
+msgid ""
+"WooCommerce Points and Rewards requires coupons to be %senabled%s in order "
+"to function properly and allow customers to redeem points during checkout."
+msgstr ""
+"De spaarpunten uitbreiding vereist dat de coupon instelling van uw webshop "
+"ingeschakeld is om te functioneren."
+
+#. Author of the plugin/theme
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wc-points-rewards-admin.php:171
+#: includes/class-wc-points-rewards-admin.php:172
+#: includes/class-wc-points-rewards-privacy.php:12
+msgid "Points & Rewards"
+msgstr "Spaarpunten"
+
+#: includes/class-wc-points-rewards-admin.php:326
+msgid "Manage Customer Points"
+msgstr "Beheer spaarpunten"
+
+#: includes/class-wc-points-rewards-admin.php:376
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: includes/class-wc-points-rewards-admin.php:434
+msgid ""
+"Are you sure you want to apply points to all previous orders that have not "
+"already had points generated? This cannot be reversed! Note that this can "
+"take some time in shops with a large number of orders, if an error occurs, "
+"simply Apply Points again to continue the process."
+msgstr ""
+"Weet je zeker dat je doekoes wilt toepassen op bestellingen uit het verleden "
+"die nog geen doekoes toegekend hebben gekregen? Deze actie kan niet ongedaan "
+"worden gemaakt. Het kan een tijd duren voor webshops met veel bestellingen. "
+"Gaat er iets mis? Klik dan opnieuw op Doekoes toekennen."
+
+#: includes/class-wc-points-rewards-admin.php:506
+msgid "Points Settings"
+msgstr "Spaarpunten Instellingen"
+
+#: includes/class-wc-points-rewards-admin.php:513
+msgid "Earn Points Conversion Rate"
+msgstr "Spaarpunten verdienen conversieratio"
+
+#: includes/class-wc-points-rewards-admin.php:514
+msgid "Set the number of points awarded based on the product price."
+msgstr ""
+"Voer hier het aantal spaarpunten in die de klant voor dit product kan "
+"ontvangen."
+
+#: includes/class-wc-points-rewards-admin.php:522
+msgid "Earn Points Rounding Mode"
+msgstr "Afrondmodues"
+
+#: includes/class-wc-points-rewards-admin.php:523
+msgid "Set how points should be rounded."
+msgstr "Selecteer hier hoe de spaarpunten afgerond worden."
+
+#: includes/class-wc-points-rewards-admin.php:536
+msgid "Redemption Conversion Rate"
+msgstr "Spaarpunten besteden"
+
+#: includes/class-wc-points-rewards-admin.php:537
+msgid "Set the value of points redeemed for a discount."
+msgstr "Selecteer hier hoeveel spaarpunten waard zijn."
+
+#: includes/class-wc-points-rewards-admin.php:545
+msgid "Partial Redemption"
+msgstr "Gedeeltelijk besteden"
+
+#: includes/class-wc-points-rewards-admin.php:546
+msgid "Enable partial redemption"
+msgstr "Gedeeltelijk besteden inschakelen"
+
+#: includes/class-wc-points-rewards-admin.php:547
+msgid ""
+"Lets users enter how many points they wish to redeem during cart/checkout."
+msgstr "Laat de klant zelf aangeven hoeveel spaarpunten hij wilt besteden."
+
+#: includes/class-wc-points-rewards-admin.php:555
+msgid "Minimum Points Discount"
+msgstr "Minimaal aantal punten voor korting"
+
+#: includes/class-wc-points-rewards-admin.php:556
+msgid ""
+"Set the minimum amount a user's points must add up to in order to redeem "
+"points. Use a fixed monetary amount or leave blank to disable."
+msgstr ""
+"Stel het minimale aantal punten in, dat de gebruiker nodig heeft om punten "
+"in te kunnen wisselen. Gebruik een vast geldbedrag of laat leeg om deze "
+"functie uit te schakelen."
+
+#: includes/class-wc-points-rewards-admin.php:564
+#: includes/class-wc-points-rewards-product-admin.php:213
+#: includes/class-wc-points-rewards-product-admin.php:235
+#: includes/class-wc-points-rewards-product-admin.php:461
+msgid "Maximum Points Discount"
+msgstr "Maximaal aantal te besteden spaarpunten"
+
+#: includes/class-wc-points-rewards-admin.php:565
+msgid ""
+"Set the maximum product discount allowed for the cart when redeeming points. "
+"Use either a fixed monetary amount or a percentage based on the product "
+"price. Leave blank to disable."
+msgstr ""
+"Vul hier het maximaal aantal punten in dat een klant per bestelling kan "
+"besteden op basis van totale winkelwagen prijs. Gebruik een rond getal "
+"(bijv. 20 voor maximaal 20 euro korting) een percentage (50% voor maximaal "
+"de helft van de winkelwagen waarde). Laat leeg om niet te gebruiken."
+
+#: includes/class-wc-points-rewards-admin.php:573
+msgid "Maximum Product Points Discount"
+msgstr "Maximaal aantal te besteden product-spaarpunten"
+
+#: includes/class-wc-points-rewards-admin.php:574
+msgid ""
+"Set the maximum product discount allowed when redeeming points per-product. "
+"Use either a fixed monetary amount or a percentage based on the product "
+"price. Leave blank to disable. This can be overridden at the category and "
+"product level."
+msgstr ""
+"Vul hier het maximaal aantal punten in dat een klant per bestelling kan "
+"besteden per product. Gebruik een rond getal (bijv. 5 voor maximaal 5 euro "
+"korting per product) een percentage (50% voor maximaal de helft van de "
+"product waarde). Laat leeg om niet te gebruiken."
+
+#: includes/class-wc-points-rewards-admin.php:582
+msgid "Tax Setting"
+msgstr "Belastinginstelling"
+
+#: includes/class-wc-points-rewards-admin.php:583
+msgid "Whether or not points should apply to prices inclusive of tax."
+msgstr "Of punten van toepassing moeten zijn op prijzen inclusief belasting."
+
+#: includes/class-wc-points-rewards-admin.php:595
+msgid "Points Label"
+msgstr "Spaarpunten label"
+
+#: includes/class-wc-points-rewards-admin.php:596
+msgid "The label used to refer to points on the frontend, singular and plural."
+msgstr "De tekst die getoond wordt aan de klant. Zowel enkel- als meervoudig."
+
+#: includes/class-wc-points-rewards-admin.php:598
+#: includes/class-wc-points-rewards-manage-points-list-table.php:40
+#: includes/class-wc-points-rewards-points-log-list-table.php:40
+msgid "Point"
+msgstr "Punt"
+
+#: includes/class-wc-points-rewards-admin.php:598
+#: includes/class-wc-points-rewards-admin.php:746
+#: includes/class-wc-points-rewards-admin.php:1105
+#: includes/class-wc-points-rewards-manage-points-list-table.php:41
+#: includes/class-wc-points-rewards-manage-points-list-table.php:76
+#: includes/class-wc-points-rewards-points-log-list-table.php:41
+#: includes/class-wc-points-rewards-points-log-list-table.php:60
+msgid "Points"
+msgstr "Punten"
+
+#: includes/class-wc-points-rewards-admin.php:604
+msgid "Points Expire After"
+msgstr "Punten verlopen na"
+
+#: includes/class-wc-points-rewards-admin.php:605
+msgid "Set the period after which points expire once granted to a user"
+msgstr ""
+"De periode instellen waarna doekoes vervallen zodra deze aan een gebruiker "
+"zijn verleend"
+
+#: includes/class-wc-points-rewards-admin.php:613
+msgid "Product / Cart / Checkout Messages"
+msgstr "Product/Winkelwagen/Afreken berichten"
+
+#: includes/class-wc-points-rewards-admin.php:614
+msgid ""
+"Adjust the message by using %1$s{points}%2$s and %1$s{points_label}%2$s to "
+"represent the points earned / available for redemption and the label set for "
+"points."
+msgstr ""
+"Pas het bericht aan met %1$s{points}%2$s en %1$s{points_label}%2$s om te "
+"verdienen / besteden punten te vertegenwoordigen en het label dat is "
+"ingesteld voor punten."
+
+#: includes/class-wc-points-rewards-admin.php:621
+msgid "Single Product Page Message"
+msgstr "Enkel product paginabericht"
+
+#: includes/class-wc-points-rewards-admin.php:622
+msgid ""
+"Add an optional message to the single product page below the price. "
+"Customize the message using {points} and {points_label}. Limited HTML is "
+"allowed. Leave blank to disable."
+msgstr ""
+"Voeg een optioneel bericht toe aan de enkele product pagina onder de prijs. "
+"Pas het bericht aan met {Points} en {points_label}. Beperkte HTML is "
+"toegestaan. Laat leeg uit te schakelen."
+
+#: includes/class-wc-points-rewards-admin.php:625
+msgid "Purchase this product now and earn %s!"
+msgstr "Koop dit product en verdien %s!"
+
+#: includes/class-wc-points-rewards-admin.php:631
+msgid "Variable Product Page Message"
+msgstr "Variabel product paginabericht"
+
+#: includes/class-wc-points-rewards-admin.php:632
+msgid ""
+"Add an optional message to the variable product page below the price. "
+"Customize the message using {points} and {points_label}. Limited HTML is "
+"allowed. Leave blank to disable."
+msgstr ""
+"Voeg een optioneel bericht toe aan de variabele productpagina onder de "
+"prijs. Pas het bericht aan met {points} en {points_label}. Beperkte HTML is "
+"toegestaan. Leeg laten om uit te schakelen."
+
+#: includes/class-wc-points-rewards-admin.php:635
+msgid "Earn up to %s."
+msgstr "Verdien tot wel %s punten."
+
+#: includes/class-wc-points-rewards-admin.php:641
+msgid "Earn Points Cart/Checkout Page Message"
+msgstr "Bericht winkelwagen/checkoutpagina punten verdienen"
+
+#: includes/class-wc-points-rewards-admin.php:642
+msgid ""
+"Displayed on the cart and checkout page when points are earned. Customize "
+"the message using {points} and {points_label}. Limited HTML is allowed."
+msgstr ""
+"Weergegeven op de winkelwagen en de checkoutpagina wanneer punten worden "
+"verdiend. Pas het bericht aan met {points} en {points_label}. Beperkte HTML "
+"is toegestaan."
+
+#: includes/class-wc-points-rewards-admin.php:645
+msgid "Complete your order and earn %s for a discount on a future purchase"
+msgstr ""
+"Voltooi uw bestelling en ontvang %s voor korting op uw volgende bestelling"
+
+#: includes/class-wc-points-rewards-admin.php:651
+msgid "Redeem Points Cart/Checkout Page Message"
+msgstr "Bericht winkelwagen/checkoutpagina punten besteden"
+
+#: includes/class-wc-points-rewards-admin.php:652
+msgid ""
+"Displayed on the cart and checkout page when points are available for "
+"redemption. Customize the message using {points}, {points_value}, and "
+"{points_label}. Limited HTML is allowed."
+msgstr ""
+"Weergegeven op de winkelwagen en de checkoutpagina wanneer er punten "
+"beschikbaar zijn voor besteding. Pas het bericht aan met {points}, "
+"{points_value} en {points_label}. Beperkte HTML is toegestaan."
+
+#: includes/class-wc-points-rewards-admin.php:655
+msgid "Use %s for a %s discount on this order!"
+msgstr "Gebruik %s voor %s korting op deze bestelling!"
+
+#: includes/class-wc-points-rewards-admin.php:661
+msgid "Thank You / Order Received Page Message"
+msgstr "Bericht bedankt / bestelling ontvangen pagina"
+
+#: includes/class-wc-points-rewards-admin.php:662
+msgid ""
+"Displayed on the thank you / order received page when points were earned. "
+"Customize the message using {points}, {total_points}, {points_label}, and "
+"{total_points_label}. Limited HTML is allowed."
+msgstr ""
+"Weergegeven op de bedankt / bestelling ontvangen pagina wanneer punten zijn "
+"verdiend. Pas het bericht aan met {points}, {total_points}, {points_label} "
+"en {total_points_label}. Beperkte HTML is toegestaan."
+
+#: includes/class-wc-points-rewards-admin.php:665
+msgid "You have earned %s for this order. You have a total of %s."
+msgstr "Je hebt %s voor deze order verdiend. Je hebt in totaal %s."
+
+#: includes/class-wc-points-rewards-admin.php:672
+msgid "Points Earned for Actions"
+msgstr "Spaarpunten verdient voor handelingen"
+
+#: includes/class-wc-points-rewards-admin.php:673
+msgid ""
+"Customers can also earn points for actions like creating an account or "
+"writing a product review. You can enter the amount of points the customer "
+"will earn for each action in this section."
+msgstr ""
+"Klanten kunnen ook spaarpunten verdienen voor handelingen zoals een account "
+"aanmaken en een productbeoordeling schrijven. Vul hier de spaarpunten in die "
+"ze hier voor verdienen."
+
+#: includes/class-wc-points-rewards-admin.php:682
+msgid "Actions"
+msgstr "Acties"
+
+#: includes/class-wc-points-rewards-admin.php:687
+msgid "Apply Points to Previous Orders"
+msgstr "Ken spaarpunten toe aan orders uit het verleden"
+
+#: includes/class-wc-points-rewards-admin.php:688
+msgid ""
+"This will apply points to all previous orders (processing and completed) and "
+"cannot be reversed."
+msgstr ""
+"Dit kent spaarpunten toe aan alle orders uit het verleden (in behandeling en "
+"voltooid). Dit kan niet ongedaan worden gemaakt."
+
+#: includes/class-wc-points-rewards-admin.php:689
+msgid "Apply Points"
+msgstr "Punten toepassen"
+
+#: includes/class-wc-points-rewards-admin.php:933
+msgid "%sOnly apply to points earned since%s - %sOptional%s"
+msgstr "%sOnly van toepassing op punten verdiend sinds%s - %sOptional%s"
+
+#: includes/class-wc-points-rewards-admin.php:935
+msgid "Leave blank to apply to all points"
+msgstr "Laat leeg om alle punten te verzilveren"
+
+#: includes/class-wc-points-rewards-admin.php:968
+msgid "%sUp Until%s - %sOptional%s: Leave blank to apply to all orders"
+msgstr "%Van - Tot%s - %Optioneel%s: Laat leeg voor alle bestellingen"
+
+#: includes/class-wc-points-rewards-admin.php:1047
+msgid "Database error while applying user points."
+msgstr "Databasefout tijdens het toepassen van gebruikerspunten."
+
+#: includes/class-wc-points-rewards-admin.php:1074
+msgid "%d order updated."
+msgid_plural "%s orders updated."
+msgstr[0] "%d bestelling bijgewerkt."
+msgstr[1] "%s bestellingen bijgewerkt."
+
+#: includes/class-wc-points-rewards-admin.php:1108
+msgid "Earned:"
+msgstr "Verdiend:"
+
+#: includes/class-wc-points-rewards-admin.php:1109
+#: includes/class-wc-points-rewards-admin.php:1113
+msgid "None"
+msgstr "Geen"
+
+#: includes/class-wc-points-rewards-admin.php:1112
+msgid "Redeemed:"
+msgstr "Verzilverd:"
+
+#: includes/class-wc-points-rewards-admin.php:1134
+msgid "Points Modifier"
+msgstr "Puntenberekening"
+
+#: includes/class-wc-points-rewards-admin.php:1135
+msgid ""
+"Enter a percentage which modifies how points are earned when this coupon is "
+"applied. For example, enter 200% to double the amount of points typically "
+"earned when the coupon is applied."
+msgstr ""
+"Voer een percentage in dat wijzigt hoe punten worden verdiend wanneer deze "
+"coupon wordt toegepast. Voer bijvoorbeeld 200% in om het aantal punten te "
+"verdubbelen dat normaal gesproken wordt verdiend wanneer de coupon wordt "
+"toegepast."
+
+#: includes/class-wc-points-rewards-admin.php:1201
+msgid "Reset Points and Rewards"
+msgstr "Reset spaarpunten"
+
+#: includes/class-wc-points-rewards-admin.php:1202
+msgid "Delete all points and rewards and clear the logs."
+msgstr "Verwijder alle spaarpunten en maak de logs leeg."
+
+#: includes/class-wc-points-rewards-admin.php:1203
+msgid ""
+"<strong class=\"red\">Note:</strong> This action will remove all customer "
+"points and cannot be undone."
+msgstr ""
+"<strong class=“red”>Let op:</strong> Deze handeling verwijdert alle "
+"spaarpunten en kan niet ongedaan gemaakt worden."
+
+#: includes/class-wc-points-rewards-admin.php:1218
+msgid "All points and rewards successfully deleted"
+msgstr "Alle spaarpunten zijn verwijderd"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:70
+msgid "Points redemption"
+msgstr "Spaarpunten inwisselen"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:311
+msgid "Apply Discount"
+msgstr "Korting toepassen"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:503
+msgid "How many points would you like to apply?"
+msgstr "Hoeveel punten wil je graag inwisselen?"
+
+#: includes/class-wc-points-rewards-discount.php:102
+#: includes/class-wc-points-rewards-legacy-discount.php:128
+msgid "Discount Applied Successfully"
+msgstr "Punten succesvol verzilverd"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:58
+#: includes/class-wc-points-rewards-manage-points-list-table.php:77
+#: includes/class-wc-points-rewards-manage-points-list-table.php:159
+msgid "Update"
+msgstr "Bijwerken"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:75
+#: includes/class-wc-points-rewards-points-log-list-table.php:59
+msgid "Customer"
+msgstr "Klant"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:227
+msgid "%d customer updated."
+msgid_plural "%s customers updated."
+msgstr[0] "%d klant bijgewerkt."
+msgstr[1] "%s klanten bijgewerkt."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:230
+msgid "%d customer could not be updated."
+msgid_plural "%s customers could not be updated."
+msgstr[0] "%d klant kan niet worden bijgewerkt."
+msgstr[1] "%d klanten kunnen niet worden bijgewerkt."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:366
+msgid "No user points found"
+msgstr "Geen punten gevonden"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:368
+msgid ""
+"User points will appear here for you to view and manage once you have "
+"customers."
+msgstr ""
+"Gebruikerspunten worden hier weergegeven om te bekijken en te beheren zodra "
+"u klanten heeft."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:392
+#: includes/class-wc-points-rewards-points-log-list-table.php:268
+msgid "Invalid customer"
+msgstr "Ongeldige klant"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:399
+#: includes/class-wc-points-rewards-manage-points-list-table.php:408
+#: includes/class-wc-points-rewards-points-log-list-table.php:275
+#: includes/class-wc-points-rewards-points-log-list-table.php:284
+msgid "Show All Customers"
+msgstr "Toon alle klanten"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:411
+#: includes/class-wc-points-rewards-points-log-list-table.php:301
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/class-wc-points-rewards-manager.php:76
+msgid "%s adjusted by \"admin\""
+msgstr "%s gewijzigd door beheerder"
+
+#: includes/class-wc-points-rewards-manager.php:77
+msgid "%s earned for purchase"
+msgstr "%s verdiend met aankoop"
+
+#: includes/class-wc-points-rewards-manager.php:78
+msgid "%s adjusted for cancelled order"
+msgstr "%s aangepast door geannuleerde bestelling"
+
+#: includes/class-wc-points-rewards-manager.php:79
+msgid "%s adjusted for an order refund"
+msgstr "%s aangepast door terugbetaalde bestelling"
+
+#: includes/class-wc-points-rewards-manager.php:80
+msgid "%s redeemed towards purchase"
+msgstr "%s gebruikt bij bestelling"
+
+#: includes/class-wc-points-rewards-manager.php:81
+msgid "%s expired"
+msgstr "%s verlopen"
+
+#. translators: 1: points 2: points label
+#: includes/class-wc-points-rewards-order.php:112
+msgid "Customer earned %1$d %2$s for purchase."
+msgstr "%1$d %2$s spaarpunten verdiend met aankoop."
+
+#. translators: 1: points earned 2: points label 3: discount amount
+#: includes/class-wc-points-rewards-order.php:259
+msgid "%1$d %2$s redeemed for a %3$s discount."
+msgstr "%1$d %2$s verzilverd voor %3$s korting."
+
+#. translators: 1: points earned 2: points earned label
+#: includes/class-wc-points-rewards-order.php:319
+#: includes/class-wc-points-rewards-order.php:374
+msgid "%1$d %2$s removed."
+msgstr "%1$d %2$s verwijderd."
+
+#. translators: 1: points redeemed 2: points redeemed label
+#: includes/class-wc-points-rewards-order.php:335
+msgid "%1$d %2$s credited back to customer."
+msgstr "%1$d %2$s gecrediteerd naar klant"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:61
+#: templates/myaccount/my-points.php:27
+msgid "Event"
+msgstr "Evenement"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:62
+#: templates/myaccount/my-points.php:28
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:115
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:241
+msgid "No log entries found"
+msgstr "Geen logboek vermeldingen gevonden"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:243
+msgid "Point log entries will appear here for you to view and manage."
+msgstr "Spaarpunten logs worden hier getoond."
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:288
+msgid "Show All Event Types"
+msgstr "Alle gebeurtenistypen weergeven"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:329
+msgid "Show all Event Dates"
+msgstr "Alle gebeurtenisdatums weergeven"
+
+#. translators: %1$s month, %2$d year
+#: includes/class-wc-points-rewards-points-log-list-table.php:344
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/class-wc-points-rewards-points-log.php:131
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: includes/class-wc-points-rewards-privacy.php:20
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+"Door deze extensie te gebruiken, sla je mogelijk persoonlijke gegevens op of "
+"deelt u gegevens met een externe service. <a href=\"%s\" target=\"_blank"
+"\">Lees meer</a>"
+
+#: includes/class-wc-points-rewards-product-admin.php:117
+#: includes/class-wc-points-rewards-product-admin.php:208
+#: includes/class-wc-points-rewards-product-admin.php:230
+#: includes/class-wc-points-rewards-product-admin.php:301
+#: includes/class-wc-points-rewards-product-admin.php:335
+#: includes/class-wc-points-rewards-product-admin.php:454
+#: includes/class-wc-points-rewards-product-admin.php:547
+msgid "Points Earned"
+msgstr "Aantal spaarpunten"
+
+#: includes/class-wc-points-rewards-product-admin.php:118
+msgid ""
+"This can be either a fixed number of points earned for purchasing this "
+"product, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the normal rate, enter "
+"200%.  This setting modifies the global Points Conversion Rate and overrides "
+"any category value.  Use 0 to assign no points for this product, and empty "
+"to use the global/category settings."
+msgstr ""
+"Dit kan een vast aantal punten zijn dat wordt verdiend door de aankoop van "
+"dit product, of een percentage dat punten toewijst op basis van de prijs. "
+"Als u bijvoorbeeld punten wilt toekennen die gelijk zijn aan het dubbele van "
+"het normale tarief, voert u 200% in.  Met deze instelling wordt de globale "
+"conversieratio van punten aangepast en wordt de waarde van elke categorie "
+"overschrijft.  Gebruik 0 om geen punten voor dit product toe te wijzen en "
+"leeg om de globale/categorie-instellingen te gebruiken."
+
+#: includes/class-wc-points-rewards-product-admin.php:129
+msgid "Maximum Discount"
+msgstr "Maximale korting"
+
+#: includes/class-wc-points-rewards-product-admin.php:130
+#: includes/class-wc-points-rewards-product-admin.php:202
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+"Voer een vast maximaal kortingsbedrag of een vast percentage in dat het "
+"aantal punten beperkt dat kan worden ingewisseld voor een korting op basis "
+"van de productprijs. Als u bijvoorbeeld de korting op dit product wilt "
+"beperken tot maximaal 50%, voert u 50% in of voert u 5 in om de maximale "
+"korting te beperken tot $ 5.  Met deze instelling worden de standaardwaarden "
+"voor globaal/categorie overschrijft, gebruikt u 0 om puntkortingen voor dit "
+"product uit te schakelen en leeg om de standaardwaarden/categorie te "
+"gebruiken."
+
+#: includes/class-wc-points-rewards-product-admin.php:142
+#: includes/class-wc-points-rewards-product-admin.php:220
+#: includes/class-wc-points-rewards-product-admin.php:245
+#: includes/class-wc-points-rewards-product-admin.php:471
+msgid "Change Renewal Points"
+msgstr "Verlengingspunten wijzigen"
+
+#: includes/class-wc-points-rewards-product-admin.php:143
+#: includes/class-wc-points-rewards-product-admin.php:203
+#: includes/class-wc-points-rewards-product-admin.php:451
+msgid ""
+"For Subscription renewals with a different point value than the signup, "
+"enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+"Voer bij verlengingen van abonnementen met een andere puntwaarde dan de "
+"aanmelding een vast maximaal kortingsbedrag of een percentage in dat het "
+"aantal punten beperkt dat kan worden ingewisseld voor een korting op basis "
+"van de productprijs. Als u bijvoorbeeld de korting op dit product wilt "
+"beperken tot maximaal 50%, voert u 50% in of voert u 5 in om de maximale "
+"korting te beperken tot $ 5.  Met deze instelling worden de standaardwaarden "
+"voor globaal/categorie overschrijft, gebruikt u 0 om puntkortingen voor dit "
+"product uit te schakelen en leeg om de standaardwaarden/categorie te "
+"gebruiken."
+
+#: includes/class-wc-points-rewards-product-admin.php:201
+msgid ""
+"This can either be a fixed number of points earned for purchasing this "
+"variation, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the the normal rate, "
+"enter 200%.  This setting modifies the global Points Conversion Rate and "
+"overrides any category value.  Use 0 to assign no points for this variation, "
+"and empty to use the global/category settings."
+msgstr ""
+"Dit kan een vast aantal punten zijn dat wordt verdiend voor de aankoop van "
+"deze variant, of een percentage dat punten toewijst op basis van de prijs. "
+"Als u bijvoorbeeld punten wilt toekennen die gelijk zijn aan het dubbele van "
+"het normale tarief, voert u 200% in.  Met deze instelling wordt de globale "
+"conversieratio van punten aangepast en wordt de waarde van elke categorie "
+"overschrijft.  Gebruik 0 om geen punten toe te wijzen voor deze variatie en "
+"leeg om de globale/categorie-instellingen te gebruiken."
+
+#: includes/class-wc-points-rewards-product-admin.php:209
+#: includes/class-wc-points-rewards-product-admin.php:231
+msgid "Variation Points Earned"
+msgstr "Verdiende variatiepunten"
+
+#: includes/class-wc-points-rewards-product-admin.php:214
+#: includes/class-wc-points-rewards-product-admin.php:236
+msgid "Variation Max Points Discount"
+msgstr "Variatie maximale puntenkorting"
+
+#: includes/class-wc-points-rewards-product-admin.php:221
+#: includes/class-wc-points-rewards-product-admin.php:246
+msgid "Variation Change Rewards Points"
+msgstr "Variatie Wijziging Spaartpunten"
+
+#: includes/class-wc-points-rewards-product-admin.php:311
+msgid "Enter a value"
+msgstr "Voer een waarde in"
+
+#: includes/class-wc-points-rewards-product-admin.php:340
+msgid "— No Change —"
+msgstr "— Geen Wijzigingen —"
+
+#: includes/class-wc-points-rewards-product-admin.php:341
+msgid "Change to:"
+msgstr "Wijzigen in:"
+
+#: includes/class-wc-points-rewards-product-admin.php:342
+msgid "Increase by (fixed amount or %):"
+msgstr "Verhogen (vast bedrag of %):"
+
+#: includes/class-wc-points-rewards-product-admin.php:343
+msgid "Decrease by (fixed amount or %):"
+msgstr "Verlagen (vast bedrag of %):"
+
+#: includes/class-wc-points-rewards-product-admin.php:353
+msgid "Enter Points Earned"
+msgstr "Verdiende punten invoeren"
+
+#: includes/class-wc-points-rewards-product-admin.php:449
+msgid ""
+"This can either be a fixed number of points earned for the purchase of any "
+"product that belongs to this category, or a percentage which assigns points "
+"based on the price of the product. For example, if you want to award points "
+"equal to double the normal rate, enter 200%.  This setting modifies the "
+"global Points Conversion Rate, but can be overridden by a product/variation. "
+"Use 0 to assign no points for products belonging to this category, and empty "
+"to use the global setting."
+msgstr ""
+"Dit kan een vast aantal punten zijn dat wordt verdiend voor de aankoop van "
+"een product dat tot deze categorie behoort, of een percentage dat punten "
+"toewijst op basis van de prijs van het product. Als u bijvoorbeeld punten "
+"wilt toekennen die gelijk zijn aan het dubbele van het normale tarief, voert "
+"u 200% in.  Deze instelling wijzigt de globale conversieratio van punten, "
+"maar kan worden overschreven door een product/variant. Gebruik 0 om geen "
+"punten toe te wijzen voor producten die tot deze categorie behoren en leeg "
+"om de globale instelling te gebruiken."
+
+#: includes/class-wc-points-rewards-product-admin.php:450
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the price "
+"of the product in this category. For example, if you want to restrict the "
+"discount on this category to a maximum of 50%, enter 50%, or enter $5 to "
+"restrict the maximum discount to $5.  This setting overrides the global "
+"default, but can be overridden by a product/variation. Use 0 to disable "
+"point discounts for this product, and blank to use the global/category "
+"default."
+msgstr ""
+"Voer een vast maximaal kortingsbedrag of een vast percentage in dat het "
+"aantal punten beperkt dat kan worden ingewisseld voor een korting op basis "
+"van de prijs van het product in deze categorie. Als u bijvoorbeeld de "
+"korting op deze categorie wilt beperken tot maximaal 50%, voert u 50% in of "
+"voert u $ 5 in om de maximale korting te beperken tot $ 5.  Deze instelling "
+"overschrijft de globale standaardinstelling, maar kan worden overschreven "
+"door een product/variant. Gebruik 0 om puntkortingen voor dit product uit te "
+"schakelen en leeg om de standaardwaarden/categorie te gebruiken."
+
+#: includes/class-wc-points-rewards-product-admin.php:456
+msgid "Category Points Earned"
+msgstr "Verdiende categoriepunten"
+
+#. translators: 1: points
+#: includes/class-wc-points-rewards-product.php:175
+msgid "Earn at least <strong>%d</strong> points by purchasing this product."
+msgstr ""
+"Spaar maar liefst <strong>%d</strong> punten bij aanschaf van dit product."
+
+#: templates/myaccount/my-points.php:19
+msgid "My %s"
+msgstr "Mijn %s"
+
+#: templates/myaccount/my-points.php:21
+msgid "You have %d %s"
+msgstr "Je hebt %d %s"
+
+#: templates/myaccount/my-points.php:51
+msgid "Previous"
+msgstr "Vorige"
+
+#: templates/myaccount/my-points.php:55
+msgid "Next"
+msgstr "Volgende"
+
+#. translators: %s WC download URL link.
+#: woocommerce-points-and-rewards.php:34
+msgid ""
+"Points and Rewards requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+"Punten en beloningen vereist dat WooCommerce wordt geïnstalleerd en actief "
+"is. U %s hier downloaden."
+
+#: woocommerce-points-and-rewards.php:418
+msgid "Configure"
+msgstr "Configureren"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Points and Rewards"
+msgstr "WooCommerce Punten en Beloningen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/woocommerce-points-and-rewards/"
+msgstr "https://woocommerce.com/products/woocommerce-points-and-rewards/"
+
+#. Description of the plugin/theme
+msgid ""
+"Reward customers for purchases and other actions with points which can be "
+"redeemed for discounts"
+msgstr ""
+"Beloon klanten voor aankopen en andere acties met spaarpunten die gebruikt "
+"kunnen worden voor korting op een volgende aankoop"
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: includes/class-wc-points-rewards-admin.php:934
+#: includes/class-wc-points-rewards-admin.php:969
+msgctxt "placeholder"
+msgid "YYYY-MM-DD"
+msgstr "DD-MM-YYYY"
